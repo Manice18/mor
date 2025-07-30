@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "mor-cli",
+    "mor-core/programs/*"
+]
+resolver = "2"
+
+[workspace.dependencies]
+mor-core = { path = "mor-core/programs/mor-core" }
